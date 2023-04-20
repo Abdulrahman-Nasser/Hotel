@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Personal Bootstrap Template</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <section class="booking p-70">
+
+        <div class="booking-text text-center">
+            <h1>Hotel Reservation System</h1>
+        </div>
+       
+        
+        <div class="container mt-5">
+         
+            <div class="row justify-content-center">
+               
+                <div class="col-lg-8 booking-bg p-4">
+                  <div class="row">
+                    <div class="col-md-6 mt-3">
+                        <form action="">
+                            <div class="form-group">
+                                <input type="text" name="name" id="" placeholder="Name" class="form-control booking-border">
+                            </div>
+                        </form>
+                    </div>
+                    
+                    <div class="col-md-6 mt-3">
+                        <form action="">
+                            <div class="form-group">
+                                <input type="text" name="name" id="" placeholder="Email" class="form-control booking-border">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-12 mt-4">
+                        <form action="">
+                            <div class="form-group">
+                                <input type="number" name="name" id="" placeholder="Phone" class="form-control booking-border">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-12 mt-4">
+                        <form action="">
+                            <div class="form-group">
+                                <label for="">Type of Room</label>
+                                <select name="" id="roomType" class="form-control booking-border mt-3">
+                                    
+                                    <option value="" class="option">none</option>
+                                    <option value="" class="option">single</option>
+                                    <option value="" class="option">Double</option>
+                                    <option value="suite" class="option">Suite</option>
+                                    <option value="hall" class="option">Hall</option>
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-6 mt-4">
+                        <form action="">
+                            <div class="form-group Room" style="display: none; visibility: hidden;">
+                                <label for="">Number of Rooms</label>
+                               <input type="number" name=""  id="card" class="form-control booking-border pay">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-6 mt-4">
+                        <form action="">
+                            <div class="form-group Room" id="bed" style="display: none; visibility: hidden;">
+                                <label for="">Number of Beds</label>
+                               <input type="number" name=""   class="form-control booking-border pay">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-6 mt-4">
+                        <form action="">
+                            <div class="form-group hall" style="display: none; visibility: hidden;">
+                                <label for="">Number of Chairs</label>
+                               <input type="number" name=""  id="card" class="form-control booking-border pay mt-3">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-12 mt-4">
+                        <form action="">
+                            <div class="form-group">
+                                <label for="">Room Number</label>
+                                <select name="" id="" class="form-control booking-border mt-3">
+                                    
+                                    <option value="" class="option">none</option>
+                                    <option value="" class="option">215</option>
+                                    <option value="" class="option">20</option>
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-6 mt-4">
+                        <form action="">
+                            <div class="form-group">
+                                <label for="">Meal Plan</label>
+                                <select name="" id="" class="form-control booking-border mt-3">
+                                    
+                                    <option value="" class="option">none</option>
+                                    <option value="" class="option"></option>
+                                    <option value="" class="option"></option>
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-6 mt-4">
+                        <form action="">
+                            <div class="form-group">
+                                <label for="">Number of Adults</label>
+                                <input type="number" class="form-control booking-border mt-3">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-6 mt-4">
+                        <form action="">
+                            <div class="form-group">
+                                <label for="">Number of Children</label>
+                                <input type="number" class="form-control booking-border mt-3">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-6 mt-4">
+                        <form action="">
+                            <div class="form-group">
+                                <label for="">Check in</label>
+                                <input type="date" class="form-control booking-border mt-3">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-6 mt-4">
+                        <form action="">
+                            <div class="form-group">
+                                <label for="">Check Out</label>
+                                <input type="date" class="form-control booking-border mt-3">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-6 mt-4">
+                        <form action="">
+                            <div class="form-group">
+                                <label for="">Select Payment</label>
+                                <select name="" id="visa" class="form-control booking-border mt-3">
+                                    
+                                    <option value="" class="option">none</option>
+                                    <option value="" class="option">Cash</option>
+                                    <option value="visa" class="option">Credit Card</option>
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-6 mt-4">
+                        <form action="">
+                            <div class="form-group cardNumber" style="display: none; visibility: hidden;">
+                                <label for="">Card Number</label>
+                               <input type="number" name=""  id="card" class="form-control booking-border pay">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-6 mt-4">
+                        <form action="">
+                            <div class="form-group cardNumber " id="" style="display: none; visibility: hidden;">
+                                <label for="">Expire Date</label>
+                               <input type="date"  name="" id="card" class="form-control booking-border pay">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-8 m-auto mt-4">
+                        <form action="">
+                            <div class="form-group cardNumber ">
+                               
+                               <input type="submit"   name="" value="Book now" class="form-control booking-border btn">
+                            </div>
+                        </form>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/jQuery/jquery-3.6.1.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
